@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="head">โปรแกรมคำนวณ BMI</h1>
+        <h2>กรอกข้อมูล</h2>
+        <div class="information">
+            <p>กรอกน้ำหนัก (กิโลกรัม)</p>
+            <input id="w" class="kg">
+            <p>กรอกส่วนสูง (เซนติเมตร)</p>
+            <input id="h" class="cm">
+            <br>
+        </div>
+        <div class="result">
+            <button onclick="calculator()">คำนวณค่า BMI</button>
+        </div>
+        <div class="result">
+            <p id="result"></p>
+        </div>
+        <div class="result">
+            <h3 id="result2"></h3>
+        </div>
+        
+    </div>
+    <script src="value.js"></script>
+</body>
+</html>
